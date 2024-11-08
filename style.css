@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f5e7;
+    color: #5b3e2b;
+}
+
+header {
+    background-color: #a67b5b;
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+header .slogan {
+    font-style: italic;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+/* Section chung */
+section {
+    padding: 50px 0;
+}
+
+/* Div container của mỗi section */
+.section-container {
+    background-color: white;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    margin-bottom: 30px;
+}
+
+/* Hiệu ứng hover */
+.section-container:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f3e9dd;
+}
+
+/* About và Journey section */
+#about, #journey {
+    background-color: #f3e9dd;
+    text-align: center;
+}
+
+#about h2, #journey h2 {
+    font-size: 2.5rem;
+}
+
+#about p, #journey p {
+    font-size: 1.1rem;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+
+/* Social section */
+#social {
+    background-color: #d7c2a1;
+    text-align: center;
+}
+
+#social h2 {
+    font-size: 2rem;
+    color: #5b3e2b;
+}
+
+.social-links {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.social-item {
+    text-align: center;
+    background-color: rgb(230, 195, 100);
+    border-radius: 50%;
+    padding: 20px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover cho social */
+.social-item:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f3e9dd;
+}
+
+.social-item img {
+    width: 80px;
+    height: 80px;
+}
+
+.social-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+}
+
+/* Video section */
+#videos {
+    background-color: #f3e9dd;
+    text-align: center;
+}
+
+#videos h2 {
+    font-size: 2rem;
+}
+
+.video-gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.video-item {
+    margin-top: 20px;
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+/* Hiệu ứng hover cho video item */
+.video-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.2);
+    background-color: #f3e9dd;
+}
+
+.video-item p {
+    margin-top: 10px;
+    font-size: 1.2rem;
+    color: #5b3e2b;
+}
+
+/* Footer */
+footer {
+    background-color: #a67b5b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.3);
+}
+
+footer p {
+    font-size: 1rem;
+}
+hr{
+    color: #5b3e2b;
+    box-shadow: 5px 5px 5px;
+}
+p{
+    text-align: left;
+}
